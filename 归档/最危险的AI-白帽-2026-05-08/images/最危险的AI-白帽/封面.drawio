@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="封面">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Full dark background -->
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0a0a0f;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="900" height="500" as="geometry" />
+        </mxCell>
+
+        <!-- Subtle tech grid lines -->
+        <mxCell id="grid1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1a1a2e;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="250" width="900" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grid2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1a1a2e;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="0" width="1" height="500" as="geometry" />
+        </mxCell>
+
+        <!-- Split circle: left half (defense - green) -->
+        <mxCell id="circle-def" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d2818;strokeColor=#3fb950;strokeWidth=3;shape=arc;startAngle=90;endAngle=270;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="300" height="300" as="geometry" />
+        </mxCell>
+        <!-- Split circle: right half (attack - red) -->
+        <mxCell id="circle-att" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#280d0d;strokeColor=#f85149;strokeWidth=3;shape=arc;startAngle=270;endAngle=90;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="300" height="300" as="geometry" />
+        </mxCell>
+
+        <!-- Center divider line (vertical through circle) -->
+        <mxCell id="divider" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#ffffff;strokeWidth=2;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="449" y="80" width="2" height="300" as="geometry" />
+        </mxCell>
+
+        <!-- Left symbol: shield lock -->
+        <mxCell id="left-symbol" value="🛡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=64;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Right symbol: vulnerability/bug -->
+        <mxCell id="right-symbol" value="◈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=56;fontColor=#f85149;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="470" y="175" width="70" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Left label -->
+        <mxCell id="left-label" value="DEFENSE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#3fb950;fontStyle=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Right label -->
+        <mxCell id="right-label" value="OFFENSE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#f85149;fontStyle=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="620" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Main title -->
+        <mxCell id="main-title" value="最危险的 AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=36;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="395" width="500" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Subtitle -->
+        <mxCell id="sub-title" value="为什么只给白帽用？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontColor=#8b8b8b;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="300" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Accent line under title -->
+        <mxCell id="accent" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8b5cf6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="390" width="140" height="3" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

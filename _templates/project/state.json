@@ -1,0 +1,9 @@
+{
+  "project": "项目名",
+  "topic": "主题方向",
+  "created_at": "ISO 时间",
+  "updated_at": "ISO 时间",
+  "stage": "initialized",
+  "rounds_completed": 0,
+  "next": "claude-research"
+}

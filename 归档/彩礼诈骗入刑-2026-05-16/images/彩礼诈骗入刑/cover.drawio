@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="cover">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Dark background -->
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="800" height="400" as="geometry" />
+        </mxCell>
+        <!-- Accent bar -->
+        <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c41e3a;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="100" width="800" height="6" as="geometry" />
+        </mxCell>
+        <!-- Main title -->
+        <mxCell id="4" value="彩礼判了12年" style="text;html=1;align=center;verticalAlign=middle;fontSize=48;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="600" height="70" as="geometry" />
+        </mxCell>
+        <!-- Subtitle -->
+        <mxCell id="5" value="当骗婚变成诈骗罪" style="text;html=1;align=center;verticalAlign=middle;fontSize=28;fillColor=none;strokeColor=none;fontColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="500" height="50" as="geometry" />
+        </mxCell>
+        <!-- Bottom line -->
+        <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c41e3a;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="200" height="4" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

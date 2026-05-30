@@ -1,0 +1,9 @@
+{
+  "project": "AI新闻选题试跑",
+  "topic": "AI 公司终于发现：客户买的不是模型",
+  "created_at": "2026-05-08T10:42:48.771Z",
+  "updated_at": "2026-05-08T11:19:14.976Z",
+  "stage": "draft_created",
+  "rounds_completed": 3,
+  "next": "review 09-draft.md and create image brief"
+}

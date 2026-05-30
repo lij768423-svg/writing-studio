@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:mp.weixin.qq.com)",
+      "WebSearch",
+      "Skill(tavily-extract)",
+      "Skill(tavily-extract:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(npm install *)",
+      "Bash(mmx auth *)",
+      "Bash(mmx image *)",
+      "WebFetch(domain:www.theverge.com)",
+      "WebFetch(domain:techcrunch.com)",
+      "WebFetch(domain:fortune.com)",
+      "WebFetch(domain:www.theregister.com)",
+      "Bash(command -v draw.io)",
+      "Bash(/Applications/draw.io.app/Contents/MacOS/draw.io -x -f png -s 2 -o \"/Users/lijunjie/写作/images/最危险的AI-白帽/数据对比.png\" \"/Users/lijunjie/写作/images/最危险的AI-白帽/数据对比.drawio\")",
+      "Bash(/Applications/draw.io.app/Contents/MacOS/draw.io -x -f png -s 2 -o \"/Users/lijunjie/写作/images/最危险的AI-白帽/封面.png\" \"/Users/lijunjie/写作/images/最危险的AI-白帽/封面.drawio\")"
+    ]
+  }
+}
