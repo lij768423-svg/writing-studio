@@ -17,9 +17,7 @@ function usage() {
   node scripts/writing-orchestrator.cjs status --project <项目目录>
   node scripts/writing-orchestrator.cjs claude-research --project <项目目录>
   node scripts/writing-orchestrator.cjs confirm-topic --project <项目目录> --choice <选题方向> [--note <说明>]
-  node scripts/writing-orchestrator.cjs codex-review-prompt --project <项目目录> --round <1|2|3>
   node scripts/writing-orchestrator.cjs claude-revise --project <项目目录> --round <1|2|3>
-  node scripts/writing-orchestrator.cjs codex-review --project <项目目录> --round <1|2|3>
   node scripts/writing-orchestrator.cjs auto-outline --project <项目目录> [--from-round <1|2|3>] [--rounds <1|2|3>]
   node scripts/writing-orchestrator.cjs claude-draft --project <项目目录>
   node scripts/writing-orchestrator.cjs image-brief --project <项目目录>
@@ -307,64 +305,6 @@ function runClaude(projectDir, prompt, options = {}) {
   return true;
 }
 
-function runCodex(projectDir, prompt, options = {}) {
-  const codex = spawnSync('zsh', ['-lc', 'command -v codex'], { encoding: 'utf8' });
-  if (codex.status !== 0) fail('未找到 codex CLI');
-
-  const expectedFile = options.expectedFile ? path.join(projectDir, options.expectedFile) : null;
-  const result = spawnSync('codex', [
-    'exec',
-    '--skip-git-repo-check',
-    '-C', ROOT,
-    '--sandbox', 'danger-full-access',
-    '--output-last-message', path.join(projectDir, '_logs', `codex-last-${Date.now()}.txt`),
-    prompt,
-  ], {
-    cwd: ROOT,
-    encoding: 'utf8',
-    stdio: ['ignore', 'pipe', 'pipe'],
-    timeout: Number(options.timeoutMs || 240000),
-    killSignal: 'SIGKILL',
-  });
-
-  const log = [
-    `# Codex Run`,
-    ``,
-    `时间：${new Date().toISOString()}`,
-    `退出码：${result.status}`,
-    ``,
-    `## stdout`,
-    ``,
-    '```text',
-    result.stdout || '',
-    '```',
-    ``,
-    `## stderr`,
-    ``,
-    '```text',
-    result.stderr || '',
-    '```',
-    '',
-  ].join('\n');
-  const logDir = path.join(projectDir, '_logs');
-  ensureDir(logDir);
-  fs.writeFileSync(path.join(logDir, `codex-${Date.now()}.md`), log, 'utf8');
-
-  const expectedExists = expectedFile && fs.existsSync(expectedFile);
-  if (result.status !== 0 && !expectedExists) {
-    if (options.softFail) {
-      console.error(`Codex 执行失败，查看 ${logDir}`);
-      return false;
-    }
-    fail(`Codex 执行失败，查看 ${logDir}`);
-  }
-  if (result.error && result.error.code === 'ETIMEDOUT' && expectedExists) {
-    console.error(`[Codex] 已生成 ${options.expectedFile}，但 CLI 超时未退出；按文件生成成功继续。`);
-  }
-  process.stdout.write(result.stdout || '');
-  return true;
-}
-
 function init(args) {
   if (!args.name) fail('缺少 --name');
   if (!args.topic) fail('缺少 --topic');
@@ -447,40 +387,70 @@ function confirmTopic(args) {
   console.log(`已确认选题：${args.choice}`);
 }
 
-function codexReviewPrompt(args) {
-  const dir = resolveProject(args.project);
-  const round = Number(args.round || 1);
-  const { reviewFile, inputOutline: outlineFile } = roundFiles(round);
-  const promptFile = path.join(dir, `_codex-review-round-${round}-prompt.md`);
-  const prompt = renderTemplateFile(['prompts', 'codex-review.md'], {
-    projectDir: dir,
-    root: ROOT,
-    round,
-    outlineFile,
-    reviewFile,
-  });
-  fs.writeFileSync(promptFile, prompt + '\n', 'utf8');
-  console.log(promptFile);
+function reviewFileForRound(round) {
+  return round === 1 ? '03-review-round-1.md' : round === 2 ? '05-review-round-2.md' : '07-review-round-3.md';
 }
 
-function buildCodexReviewPrompt(projectDir, round) {
-  const { reviewFile, inputOutline: outlineFile } = roundFiles(round);
-  return renderTemplateFile(['prompts', 'codex-review.md'], {
-    projectDir,
-    root: ROOT,
-    round,
-    outlineFile,
-    reviewFile,
-  });
+function createReviewSkeleton(projectDir, reviewFile, round) {
+  const fullPath = path.join(projectDir, reviewFile);
+  if (fs.existsSync(fullPath)) return;
+  const inputOutline = round === 1 ? '02-outline.md' : round === 2 ? '04-outline-revised-round-1.md' : '06-outline-revised-round-2.md';
+  const skeleton = `# ${reviewFile.replace('.md', '')}: self-review
+
+> 模式：self-review（替代原 codex 视角）
+> 弃用说明：2026-06 起弃用 codex MCP（CLI PATH 解析失败 + 维护成本高），改由 Claude 按 codex 视角写敌对审视。
+> 输入大纲：${inputOutline}
+> 输出：本文件
+
+## 审查框架
+
+按 codex 视角模拟：敌对审视，专门找**事实硬伤、论据链断裂、隐含假设、反直觉点是否真有依据**。
+
+## 事实硬伤 / 待核实
+
+### 已核实（可放心写）
+-
+
+### 仍需核实（写作时需小心）
+-
+
+## 论据链断裂
+
+## 隐含假设
+
+## 反直觉点是否真有依据
+
+| 章节 | 反直觉点 | 依据 | 评级 |
+|---|---|---|---|
+| | | | |
+
+## 标题建议
+
+## 修改优先级
+
+P0（必须改）：
+-
+P1（建议改）：
+-
+P2（可选）：
+-
+
+## 总体评价
+`;
+  fs.writeFileSync(fullPath, skeleton, 'utf8');
 }
 
-function codexReview(args) {
+function selfReview(args) {
   const dir = resolveProject(args.project);
   const round = Number(args.round || 1);
-  const reviewFile = round === 1 ? '03-review-round-1.md' : round === 2 ? '05-review-round-2.md' : '07-review-round-3.md';
-  ensureDir(path.join(dir, '_logs'));
-  runCodex(dir, buildCodexReviewPrompt(dir, round), { expectedFile: reviewFile });
-  updateState(dir, { stage: `review_round_${round}`, next: `claude-revise --round ${round}` });
+  const reviewFile = reviewFileForRound(round);
+  if (fs.existsSync(path.join(dir, reviewFile))) {
+    console.error(`已存在 ${reviewFile}，跳过骨架创建。请直接编辑该文件。`);
+    return;
+  }
+  createReviewSkeleton(dir, reviewFile, round);
+  console.log(reviewFile);
+  updateState(dir, { stage: `review_round_${round}_skeleton`, next: 'edit-review-file' });
 }
 
 function claudeRevise(args) {
@@ -491,7 +461,7 @@ function claudeRevise(args) {
   updateState(dir, {
     stage: round >= 3 ? 'outline_final' : `outline_revised_round_${round}`,
     rounds_completed: round,
-    next: round >= 3 ? 'claude-draft' : `codex-review-prompt --round ${round + 1}`,
+    next: round >= 3 ? 'claude-draft' : `self-review --round ${round + 1}`,
   });
 }
 
@@ -526,11 +496,13 @@ function autoOutline(args) {
     const outputOutline = round === 1 ? '04-outline-revised-round-1.md' : round === 2 ? '06-outline-revised-round-2.md' : '08-outline-final.md';
 
     if (!fs.existsSync(path.join(dir, reviewFile))) {
-      console.error(`[auto-outline] Codex 第 ${round} 轮审查 -> ${reviewFile}`);
-      runCodex(dir, buildCodexReviewPrompt(dir, round), { expectedFile: reviewFile });
-      updateState(dir, { stage: `review_round_${round}`, next: `claude-revise --round ${round}` });
+      console.error(`[auto-outline] 第 ${round} 轮 self-review 骨架 -> ${reviewFile}`);
+      createReviewSkeleton(dir, reviewFile, round);
+      updateState(dir, { stage: `review_round_${round}_skeleton`, next: `edit ${reviewFile}` });
+      console.error(`[auto-outline] 已创建 ${reviewFile}。请按骨架写 self-review，然后重新运行 auto-outline 继续。`);
+      return;
     } else {
-      console.error(`[auto-outline] 已存在 ${reviewFile}，跳过审查。`);
+      console.error(`[auto-outline] 已存在 ${reviewFile}，跳过骨架创建。`);
     }
 
     if (!fs.existsSync(path.join(dir, outputOutline))) {
@@ -541,16 +513,13 @@ function autoOutline(args) {
         timeoutMs: 180000,
       });
       if (!ok && !fs.existsSync(path.join(dir, outputOutline))) {
-        console.error(`[auto-outline] Claude 未完成，改用 Codex 第 ${round} 轮修改 -> ${outputOutline}`);
-        const codexPrompt = buildRevisePrompt(dir, round)
-          + `\n\n你现在作为兜底修改 agent。请直接编辑 ${path.join(dir, outputOutline)}，不要等待用户确认。`;
-        runCodex(dir, codexPrompt, { expectedFile: outputOutline });
+        fail(`Claude 未完成 ${outputOutline}，请重试或手动编写。`);
       }
       updateState(dir, {
         stage: round >= 3 ? 'outline_final' : `outline_revised_round_${round}`,
         rounds_completed: round,
         required_review_rounds: targetRounds,
-        next: round >= targetRounds ? 'claude-draft' : `codex-review --round ${round + 1}`,
+        next: round >= targetRounds ? 'claude-draft' : `self-review --round ${round + 1}`,
       });
     } else {
       console.error(`[auto-outline] 已存在 ${outputOutline}，跳过修改。`);
@@ -558,7 +527,7 @@ function autoOutline(args) {
         stage: round >= 3 ? 'outline_final' : `outline_revised_round_${round}`,
         rounds_completed: round,
         required_review_rounds: targetRounds,
-        next: round >= targetRounds ? 'claude-draft' : `codex-review --round ${round + 1}`,
+        next: round >= targetRounds ? 'claude-draft' : `self-review --round ${round + 1}`,
       });
     }
   }
@@ -895,8 +864,7 @@ else if (args.cmd === 'init') init(args);
 else if (args.cmd === 'status') status(args);
 else if (args.cmd === 'claude-research') claudeResearch(args);
 else if (args.cmd === 'confirm-topic') confirmTopic(args);
-else if (args.cmd === 'codex-review-prompt') codexReviewPrompt(args);
-else if (args.cmd === 'codex-review') codexReview(args);
+else if (args.cmd === 'self-review') selfReview(args);
 else if (args.cmd === 'auto-outline') autoOutline(args);
 else if (args.cmd === 'claude-revise') claudeRevise(args);
 else if (args.cmd === 'claude-draft') claudeDraft(args);
