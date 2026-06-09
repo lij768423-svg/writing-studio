@@ -6,6 +6,14 @@ node_modules/
 .env
 .env.*
 
+# 防止误推 API key / 凭证
+secrets/
+**/secrets/
+*.key
+*.pem
+**/*-credentials*
+**/credentials/
+
 # 1.4 MB base64 内嵌版（脚本可本地生成）：不推
 **/*-embedded.md
 
