@@ -1,0 +1,33 @@
+{
+  "project": "全球AI竞赛地缘政治经济学",
+  "topic": "全球AI竞赛的地缘政治经济学——谁在剥削谁？",
+  "created_at": "2026-06-03T03:47:02.018Z",
+  "updated_at": "2026-06-03T04:15:00.000Z",
+  "workflow": "standard",
+  "archive_profile": "standard",
+  "stage": "finalized",
+  "rounds_completed": 1,
+  "required_review_rounds": 1,
+  "topic_confirmed": true,
+  "confirmed_topic_choice": "D：全球AI竞赛的地缘政治经济学——谁在剥削谁？",
+  "research_notes": "01-research.md 已完成调研",
+  "draft_reviewed": true,
+  "review_passed": true,
+  "review_summary": "v1 审校：6 处事实/表述修订。v2 压缩：30 张→15 张，~30 min→~15 min",
+  "version": "v2",
+  "slide_count": 15,
+  "duration_minutes": 15,
+  "images_done": true,
+  "images_count": 4,
+  "images_list": [
+    "images/全球AI竞赛地缘政治经济学/00-cover.png",
+    "images/全球AI竞赛地缘政治经济学/04-deepseek-ascend.png",
+    "images/全球AI竞赛地缘政治经济学/05-three-rules.png",
+    "images/全球AI竞赛地缘政治经济学/07-core-periphery.png"
+  ],
+  "images_source": "mmx (image-01, --prompt-optimizer, 16:9)",
+  "images_note": "用户要求不用 drawio 结构图，4 张 mmx 概念图已生成并插入对应幻灯片。文件实际是 JPEG 格式但存为 .png（mmx CLI 默认行为，与 5/17 教训一致）",
+  "lessons_updated": false,
+  "next": "re-archive v2",
+  "workflow_deviation": "跳过 orchestrator 的 claude-research/claude-draft（PATH 问题），改由 Claude 直接完成等价工作；v2 用户要求不画 drawio 结构图，只用 mmx 生成的 4 张概念图"
+}
