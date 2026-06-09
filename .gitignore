@@ -5,3 +5,9 @@
 node_modules/
 .env
 .env.*
+
+# 1.4 MB base64 内嵌版（脚本可本地生成）：不推
+**/*-embedded.md
+
+# PDF 制品（pandoc+Chrome 可本地重新生成）：不推
+**/*.pdf
