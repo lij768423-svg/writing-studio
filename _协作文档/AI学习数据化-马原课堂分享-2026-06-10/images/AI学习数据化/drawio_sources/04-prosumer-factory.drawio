@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-06-10T15:09:00.000Z" agent="claude-code" version="22.0.0" type="device">
+  <diagram name="prosumer-factory" id="prosumer-factory">
+    <mxGraphModel dx="2400" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="传统工厂 vs 产消者工厂：你的劳动 &quot;值&quot; 多少？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="800" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- LEFT COLUMN: Traditional Factory -->
+        <mxCell id="left-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="700" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="left-title" value="传统工厂&#10;(19 世纪工业)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="700" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Left: worker -->
+        <mxCell id="left-worker" value="工人&#10;(Worker)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=18;fontStyle=1;fillColor=#FBBF24;strokeColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="40" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Left: labor arrow -->
+        <mxCell id="left-labor" value="付出活劳动&#10;(8 小时)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#92400E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Left: boss -->
+        <mxCell id="left-boss" value="老板 / 资本家&#10;(Bourgeois)&#10;&#10;拿走：商品剩余价值&#10;返回：工资 (wage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDE68A;strokeColor=#92400E;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#78350F;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="200" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Left: arrow down for wage -->
+        <mxCell id="left-wage-arrow" value="工资" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="100" y="560" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Left: surplus -->
+        <mxCell id="left-surplus" value="剩余价值 → 老板口袋" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCA5A5;strokeColor=#B91C1C;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#7F1D1D;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="320" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Left: key insight -->
+        <mxCell id="left-insight" value="工人：拿工资" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#059669;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#065F46;" vertex="1" parent="1">
+          <mxGeometry x="150" y="650" width="500" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows in left column -->
+        <mxCell id="left-arrow-1" style="endArrow=classic;html=1;rounded=0;strokeColor=#92400E;strokeWidth=3;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="left-worker" target="left-labor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="left-arrow-2" style="endArrow=classic;html=1;rounded=0;strokeColor=#92400E;strokeWidth=3;" edge="1" parent="1" source="left-labor" target="left-boss">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="left-arrow-3" style="endArrow=classic;html=1;rounded=0;strokeColor=#7F1D1D;strokeWidth=3;dashed=1;" edge="1" parent="1" source="left-boss" target="left-surplus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="left-arrow-4" style="endArrow=classic;html=1;rounded=0;strokeColor=#92400E;strokeWidth=3;" edge="1" parent="1" source="left-boss" target="left-wage-arrow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="left-arrow-5" style="endArrow=classic;html=1;rounded=0;strokeColor=#92400E;strokeWidth=3;" edge="1" parent="1" source="left-wage-arrow" target="left-worker">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- RIGHT COLUMN: Prosumer Factory -->
+        <mxCell id="right-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#1D4ED8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="700" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="right-title" value="产消者工厂&#10;(21 世纪数字时代)&#10;Fuchs 2014" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1E3A8A;" vertex="1" parent="1">
+          <mxGeometry x="840" y="110" width="700" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Right: prosumer -->
+        <mxCell id="right-prosumer" value="用户 / 学生&#10;(Prosumer)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=18;fontStyle=1;fillColor=#60A5FA;strokeColor=#1E3A8A;" vertex="1" parent="1">
+          <mxGeometry x="930" y="220" width="40" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Right: dual action -->
+        <mxCell id="right-consume" value="消费 AI 服务&#10;(consumer)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BFDBFE;strokeColor=#1D4ED8;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#1E3A8A;" vertex="1" parent="1">
+          <mxGeometry x="880" y="320" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="right-produce" value="生产训练数据&#10;(producer)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BFDBFE;strokeColor=#1D4ED8;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#1E3A8A;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="320" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Right: platform -->
+        <mxCell id="right-platform" value="AI 平台&#10;(OpenAI / 字节 / 学而思)&#10;&#10;返回：免费服务&#10;拿走：训练数据 (你的对话)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#1E3A8A;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#1E3A8A;" vertex="1" parent="1">
+          <mxGeometry x="970" y="430" width="380" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Right: surplus (no wage) -->
+        <mxCell id="right-surplus" value="数据 = 新的剩余价值&#10;(没有对应工资)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCA5A5;strokeColor=#B91C1C;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#7F1D1D;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="600" width="360" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Right: key insight -->
+        <mxCell id="right-insight" value="产消者：&quot;没拿工资&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FECACA;strokeColor=#B91C1C;strokeWidth=3;fontSize=20;fontStyle=1;fontColor=#7F1D1D;" vertex="1" parent="1">
+          <mxGeometry x="900" y="700" width="540" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows in right column -->
+        <mxCell id="right-arrow-1a" style="endArrow=classic;html=1;rounded=0;strokeColor=#1D4ED8;strokeWidth=3;" edge="1" parent="1" source="right-prosumer" target="right-consume">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="right-arrow-1b" style="endArrow=classic;html=1;rounded=0;strokeColor=#1D4ED8;strokeWidth=3;" edge="1" parent="1" source="right-prosumer" target="right-produce">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="right-arrow-2a" style="endArrow=classic;html=1;rounded=0;strokeColor=#1D4ED8;strokeWidth=3;" edge="1" parent="1" source="right-consume" target="right-platform">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="right-arrow-2b" style="endArrow=classic;html=1;rounded=0;strokeColor=#1D4ED8;strokeWidth=3;" edge="1" parent="1" source="right-produce" target="right-platform">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="right-arrow-3" style="endArrow=classic;html=1;rounded=0;strokeColor=#B91C1C;strokeWidth=3;dashed=1;" edge="1" parent="1" source="right-platform" target="right-surplus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Center comparison -->
+        <mxCell id="vs-circle" value="VS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1F2937;strokeColor=#000000;strokeWidth=3;fontSize=28;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="755" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom takeaway -->
+        <mxCell id="takeaway" value="关键洞察：两边都产生 &quot;剩余价值&quot;——但产消者 &quot;没拿工资&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9C3;strokeColor=#CA8A04;strokeWidth=3;fontSize=20;fontStyle=1;fontColor=#713F12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="820" width="1480" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

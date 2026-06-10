@@ -1,0 +1,66 @@
+{
+  "query": "Scale AI Remotasks Surge AI data labelers wages 2025 strike Kenya Philippines",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://www.canadianaffairs.news/2025/10/17/the-gruelling-low-paid-human-work-behind-generative-ai-curtain",
+      "title": "The gruelling, low-paid human work behind generative AI ...",
+      "content": "Kenya's DLA is weighing legal action against Remotasks, which data labellers say suddenly cut off their access to the platform in March 2024",
+      "score": 0.5148644,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.washingtonpost.com/world/2023/08/28/scale-ai-remotasks-philippines-artificial-intelligence",
+      "title": "Behind the AI boom, an army of overseas workers in 'digital ...",
+      "content": "Scale AI has paid workers at extremely low rates, routinely delayed or withheld payments and provided few channels for workers to seek recourse.",
+      "score": 0.38110495,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.latimes.com/business/story/2025-05-21/surge-ai-is-latest-san-francisco-start-up-to-face-lawsuit-for-allegedly-misclassifying-data-labeling-workers",
+      "title": "Surge AI is latest San Francisco startup accused of misclassifying its workers - Los Angeles Times",
+      "content": "The Scale AI logo is seen displayed on a smartphone screen next to a laptop keyboard. Artificial intelligence training company Surge AI was hit with a lawsuit Tuesday alleging it misclassified its workers, denying them benefits given to employees. Artificial intelligence training company Surge AI has been hit with a lawsuit alleging it has misclassified contractors hired to improve chat responses from AI software for some of the world’s leading tech companies. The proposed class action lawsuit alleges that “data annotators” — hired by Surge AI to ensure that powerful AI systems run by Meta and OpenAI can properly generate text responses that are accurate and capable of mimicking human expressions — were “deliberately” classified as independent contractors, denying them benefits given to employees. Similar lawsuits have been filed against Scale AI, a larger AI training company that has gathered a vast workforce of contractors to train AI tools for companies, including Open AI and Google, as well as the U.S. Department of Defense.",
+      "score": 0.3702487,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.facebook.com/60minutes/videos/ai-training-company-failed-to-pay-workers-say-former-employees/907657601330605",
+      "title": "AI training company failed to pay workers, say former ...",
+      "content": "The website Remotasks, run by US AI training company ScaleAI, shut them out of their accounts and not pay them, claiming they'd violated policy.",
+      "score": 0.3244071,
+      "raw_content": null
+    },
+    {
+      "url": "https://restofworld.org/2024/scale-ai-remotasks-banned-workers",
+      "title": "Scale AI’s Remotasks is booting workers with no explanation - Rest of World",
+      "content": "AfricaLaborScale AI’s Remotasks platform is dropping whole countries without explanation. # Scale AI’s Remotasks platform is dropping whole countries without explanation. Workers in Kenya, Nigeria, and Pakistan were booted off the AI-training service earlier this month. * Remotasks has also halted new sign-ups in Thailand, Vietnam, and Poland. But on March 7, she was abruptly cut off from the service — along with all other Remotasks workers in Kenya — without any explanation of what had happened. (Given the global scope of Scale AI’s operations, these may not be the only countries affected, but are the only ones verified by *Rest of World*.) Through it all, the changes have been sudden and largely unexplained, driving home the precarity of clickwork. A Scale AI representative declined to say which countries had been dropped from the platform. “Remotasks remains fully available to existing contractors in Poland, India, Thailand, and Vietnam,” the representative told *Rest of World*.",
+      "score": 0.29526088,
+      "raw_content": null
+    },
+    {
+      "url": "https://telecom.economictimes.indiatimes.com/news/internet/the-hidden-labor-of-ai-data-labelers-low-wages-and-mental-health-struggles/124601785",
+      "title": "The Hidden Labor of AI Data Labelers: Low Wages and Mental Health Struggles, ETTelecom",
+      "content": "In the United States, almost 250 people were fired in September from their jobs at GlobalLogic, a subcontractor helping train Google's Gemini generative AI, after several complained about pay discrepancies and called for improved working conditions. **<p>FILE PHOTO: AI (Artificial Intelligence) letters and robot hand are placed on computer motherboard in this illustration created on June 23, 2023. The precarious work of training AI, which generally pays just a few dollars, has sparked a movement for better wages and conditions stretching from Kenya to Colombia. Labellers \"need to spend time with these images, zoom into the wounds of dead people\" to outline them so they can be fed into the AI, the 30-year-old added. Creating new generative AI models will need human-verified data \"for as long as it's based on automated learning\", said Antonio Casilli, a sociology professor at France's Institut Polytechnique in Paris who interviewed so-called \"click workers\" from 30 countries for a book on the sector.",
+      "score": 0.2833801,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.cbsnews.com/news/ai-work-kenya-exploitation-60-minutes",
+      "title": "Kenyan workers with AI jobs thought they had tickets to the future until the grim reality set in - CBS News",
+      "content": "Kenyan civil rights activist Nerima Wako-Ojiwa said the workers' desperation, in a country with high unemployment, led to a culture of exploitation with unfair wages and no job security. \"The workforce is so large and desperate that they could pay whatever and have whatever working conditions, and they will have someone who will pick up that job,\" Wako-Ojiwa said. He is what's known as a \"human in the loop\": someone sorting, labeling and sifting through reams of data to train and improve AI for companies like Meta, OpenAI, Microsoft and Google. Wambalo and Berhane Gebrekidan are among around 200 digital workers suing SAMA and Meta over \"unreasonable working conditions\" that caused them psychological problems. Wambalo said it's the responsibility of the big tech companies to know how the jobs are impacting workers. Kenya does have labor laws, but they are outdated and don't touch on digital labor, Wako-Ojiwa, the civil rights activist, said.",
+      "score": 0.19729012,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qZS50KXjAX0",
+      "title": "Training AI takes heavy toll on Kenyans working for $2 an ...",
+      "content": "Digital workers in Kenya had to sift through horrific online content to train AI, but say they were underpaid, overworked, and got inadequate",
+      "score": 0.15568112,
+      "raw_content": null
+    }
+  ],
+  "response_time": 0.75,
+  "request_id": "d3efed2b-929f-48f8-a790-99a240abbfc4"
+}

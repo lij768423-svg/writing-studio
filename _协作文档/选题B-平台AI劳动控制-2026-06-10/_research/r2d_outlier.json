@@ -1,0 +1,45 @@
+{
+  "query": "Outlier.ai Scale AI RLHF contractor 2025 wages 15 hour",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://www.aigigjobs.com/reviews/is-scale-ai-legit",
+      "title": "Is Scale AI (Outlier) Legit? Honest Review | AI Gig Jobs",
+      "content": "Yes, Scale AI is a legitimate and highly reputable AI gig platform. It is one of the best-paying options in the AI training space, with consistent weekly payments and strong task availability for qualified workers. The company specializes in providing high-quality training data for AI and machine learning models. Scale AI has raised billions in venture capital and is valued at over $13 billion, making it one of the most prominent companies in the AI data infrastructure space. For gig workers, Scale AI operates primarily through its Outlier AI platform. Specialized roles for workers with expertise in fields like mathematics, medicine, law, and software engineering tend to command the highest pay rates. Scale AI pays its contractors on a **weekly basis**, which is one of the fastest payment cycles in the AI gig industry. Pay rates on Scale AI range from$15-60/hour, with the exact rate depending on the type of task and your qualifications. According to our data, Scale AI is best for:**Workers looking for consistent AI training tasks**.",
+      "score": 0.55565286,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Outlier-(scale-Ai)",
+      "title": "Outlier (Scale AI) Careers and Employment | Indeed.com",
+      "content": "Great pay good work life balance. Work tends to be easy depending on your domain but leadership Is a hit or miss to be honest. Would recommend to anyone.",
+      "score": 0.31485102,
+      "raw_content": null
+    },
+    {
+      "url": "https://algorithmwatch.org/en/ai-revolution-exploitation-gig-workers",
+      "title": "The AI Revolution Comes With the Exploitation of Gig Workers  - AlgorithmWatch",
+      "content": "“[What I earn] very roughly corresponds to the absolute bare minimum wage,” says a Portugal-based language specialist at Outlier, “though the value can vary from project to project.” If including all the meetings, admin and training, the worker says it would “for sure” be below the minimum wage. Outlier was founded in 2023, “dedicated to advancing [Generative AI] through specialized human expertise,” states general manager Xiaote Zhu. According to the company, it drives AI advancement by offering data workers “a flexible, low-commitment option for earning additional income,” which is a euphemism for precarious and informal human work. “Scale AI is the sordid underbelly propping up the generative AI industry,” reports the complainant, alleging that the company employs “an army of misclassified independent contractors responsible for the generative Artificial Intelligence boom.” The tactics depicted in this document match what workers told AlgorithmWatch: unpaid training time, too few hours to complete tasks, and unpaid overtime work.",
+      "score": 0.31481943,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.reddit.com/r/linkedin/comments/1989kbz/scale_ai_post_legit",
+      "title": "Scale AI post legit? : r/linkedin - Reddit",
+      "content": "They pay on hourly rates and it is around 15-18$ for those in US and other European countries minimum. For India and some, it is around 8$ per",
+      "score": 0.31116566,
+      "raw_content": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scale_AI",
+      "title": "Scale AI - Wikipedia",
+      "content": "# Scale AI. **Scale AI, Inc.** is an American artificial intelligence infrastructure and software company based in San Francisco, California. The company’s research arm, the Safety, Evaluation and Alignment Lab, focuses on evaluating and aligning LLMs. It also co-created the benchmark Humanity's Last Exam. Scale AI outsources data labeling through its subsidiaries, Remotasks, which focuses on computer vision and autonomous vehicles, and Outlier, which focuses on annotating data for LLMs. Scale AI operates an LLM Red Team that conducts human adversarial testing to identify vulnerabilities \"Vulnerability (computing)\"), biases, and safety risks in AI models. CEO Alexandr Wang left Scale AI to join Meta and was replaced by Jason Droege. In February 2024, Scale AI was selected by the Department of Defense to test and evaluate its LLMs for military purposes under a one-year contract. In August 2024, Scale signed an agreement with the US AI Safety Institute, to collaborate on research, testing, and evaluation of the company’s AI models.",
+      "score": 0.24264097,
+      "raw_content": null
+    }
+  ],
+  "response_time": 0.65,
+  "request_id": "fa872afb-98d2-4b7d-9568-a501eec100f9"
+}

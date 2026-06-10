@@ -1,0 +1,45 @@
+{
+  "query": "EU AI Act emotion recognition workplace 2025 banned Article 5",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://legalblogs.wolterskluwer.com/global-workplace-law-and-policy/the-prohibition-of-ai-emotion-recognition-technologies-in-the-workplace-under-the-ai-act",
+      "title": "The Prohibition of AI Emotion Recognition Technologies in the ...",
+      "content": "Two days later, on February 4, 2025, the European Commission approved the draft non-binding guidelines on the practical implementation of the prohibited AI practices laid down in Article 5, Chapter II, of the AI Act. Of particular relevance to the world of work is the inclusion of AI emotion recognition systems in the workplace amongst AI practices and systems that pose unacceptable risks, and are therefore prohibited under Article 5(1)(f), with two limited exceptions. A case-by-case assessment in the application of Article 5(1)(f) therefore remains key to ensuring that the prohibition of AI emotion recognition technologies in the workplace is upheld and that exceptions are only justified in limited cases, where the positive outcomes (e.g. protecting workers’ lives and health) outweigh the negative implications for workers’ fundamental rights, including the respect for their (mental and physical) health and safety.",
+      "score": 0.90593183,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.technologyslegaledge.com/2025/04/eu-ai-act-spotlight-on-emotional-recognition-systems-in-the-workplace",
+      "title": "EU AI Act – Spotlight on Emotional Recognition Systems in the Workplace | Technology's Legal Edge",
+      "content": "The EU AI Act defines ’emotion recognition systems’ at Article 3(39), as AI systems ‘*for the purpose of identifying and inferring emotions or intentions of natural persons on the basis of their biometric data*.’ While the wording of the prohibition in Article 5(1)(f) does not refer specifically to the defined term ’emotion recognition system’, the Guidelines clarify that both concepts of ’emotion recognition’ and ’emotion inference’ are caught by the prohibition. This exception will come as good news for many tech companies that rely on call analysis software for sales staff training purposes, who will look at the Guidelines to exempt their use case from the Article 5(1)(f) outright prohibition on workplace Emotion AI. Appropriate governance systems including internal training and education, as well as robust due diligence and audits, to allow identification of any potential prohibited use of AI will be key to organisations in complying with the Act. Outside of prohibited practices in the workplace, businesses who deploy emotion recognition systems in relation to customers will still need ensure compliance with the rules for High-Risk AI Systems.",
+      "score": 0.8943568,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.linkedin.com/posts/oliver-patel_emotion-recognition-is-one-of-the-least-understood-activity-7415337216643923970-YXDx",
+      "title": "Emotion recognition is one of the least understood aspects of the EU AI Act Here's what's prohibited, what's high-risk, and what's not even in scope. Article 5 of the EU AI Act lists 8 categories… | Oliver Patel, AIGP, CIPP/E, MSc | 38 comments",
+      "content": "If the AI system is not processing biometric data and inferring emotions on that basis, then it is not an emotion recognition system as defined by the EU AI Act. Furthermore, not all uses of an AI system for emotion recognition in the workplace and education are outright prohibited. Therefore, for the use of an AI system for emotion recognition to actually be prohibited, all 4 of these conditions must apply: 1️⃣ The AI system must be placed on the market, put into service, or used within the territorial scope of the EU AI Act (e.g., AI system outputs used in the EU). This was confirmed by the European Commission in its February 2025 guidelines, which stated: \"An AI system inferring emotions from written text (content/sentiment analyses) to define the style or the tone of a certain article is not based on biometric data and therefore does not fall within the scope of the prohibition.\".",
+      "score": 0.8785752,
+      "raw_content": null
+    },
+    {
+      "url": "https://fpf.org/blog/red-lines-under-eu-ai-act-unpacking-the-prohibition-of-emotion-recognition-in-the-workplace-and-education-institutions",
+      "title": "Red Lines under EU AI Act: Unpacking the prohibition of emotion recognition in the workplace and education institutions",
+      "content": "The sixth blog in the “Red lines under the EU AI Act” series focuses on **unpacking the prohibition on emotion recognition in the workplace and educational institutions**, as contained in Article 5(1)(f) AI Act and explored in the Commission’s Guidelines on the topic. Article 5(1)(f) AI Act prohibits AI systems from inferring the emotions of a natural person in the workplace and education institutions based on biometric data, with specific exceptions for medical and safety purposes. It is important here to note that AI systems for emotion recognition that are not put into use in the areas of workplace or educational institutions do not fall within the scope of this prohibition and qualify as ‘high risk’ under Annex III, paragraph 1, subparagraph c of the AI Act. It is unclear whether AI systems that do not have as a primary aim the identification or inference of emotions, but have emotion identification or inference as a secondary functionality, are covered by the prohibition.",
+      "score": 0.80625874,
+      "raw_content": null
+    },
+    {
+      "url": "https://oliverpatel.substack.com/p/emotion-recognition-and-the-eu-ai",
+      "title": "Emotion recognition and the EU AI Act - by Oliver Patel",
+      "content": "# Emotion recognition and the EU AI Act. *Emotion recognition is one of the least understood aspects of the EU AI Act. The prevalence of techniques like sentiment analysis across many industries, combined with the fact that AI-enabled emotion recognition is strictly prohibited in certain EU contexts whilst lawful elsewhere, makes it essential for enterprises to understand the nuances of this prohibition. This article outlines what is prohibited, what is high-risk, and what is not in scope—drawing on the AI Act and the European Commission's guidelines published in February 2025.*This week’s newsletter covers:. ✅ Emotion recognition: what is prohibited? ✅ Emotion recognition: what is high-risk? ✅ Emotion recognition: what is not in scope? The prevalence of techniques like sentiment analysis across many industries, and the fact that AI-enabled emotion recognition is strictly prohibited in the EU whilst lawful in other jurisdictions, reinforces the importance of understanding the nuances of emotion recognition and the AI Act. The analysis that follows outlines what is prohibited, what is high-risk, and what is not in scope.",
+      "score": 0.7591723,
+      "raw_content": null
+    }
+  ],
+  "response_time": 0.66,
+  "request_id": "3aaddc89-e94a-4982-ad33-9e508268fa5e"
+}

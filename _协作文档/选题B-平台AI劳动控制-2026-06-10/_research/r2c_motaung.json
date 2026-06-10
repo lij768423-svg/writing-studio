@@ -1,0 +1,52 @@
+{
+  "query": "RLHF workers Kenya Sama 1.32 2 dollar OpenAI lawsuit Daniel Motaung",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://www.corpwatch.org/article/facebook-sued-over-mental-health-trauma-content-moderators-kenya",
+      "title": "Facebook Sued Over Mental Health Trauma to Content Moderators in Kenya | corpwatch",
+      "content": "# Facebook Sued Over Mental Health Trauma to Content Moderators in Kenya. Facebook’s parent company has been sued in Kenya over mental health trauma suffered by Daniel Motaung, a former content moderator who worked for Sama, a contractor hired to remove graphic and violent content on the social media site. Motaung alleges that Facebook, Meta and Sama trafficked workers from around Africa to do dangerous work for minimal wages, failed to provide promised mental health counseling and refused to allow them to set up a union. \"Daniel Motaung has sued @Meta and @SamaAI on his own behalf and on behalf of all CURRENT and FORMER content moderators. \"We can’t have safe social media if the workers who protect us toil in a digital sweatshop,” said Cori Crider, director of Foxglove, in a statement. Motaung, who is from South Africa, says that he took the job at Sama under the impression that he was going to work at a call center because he could speak Zulu.",
+      "score": 0.53181785,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.reuters.com/technology/content-moderator-kenya-sues-meta-over-working-conditions-2022-05-10",
+      "title": "Content moderator in Kenya sues Meta over working conditions",
+      "content": "VIOLENT VIDEOS. The Kenyan lawsuit was filed on behalf of Daniel Motaung, recruited in 2019 from South Africa to work for Sama in Nairobi.",
+      "score": 0.5164741,
+      "raw_content": null
+    },
+    {
+      "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2023/996/eng@2023-07-28",
+      "title": "Meta Platforms, Inc & another v Motaung & another - Kenya Law",
+      "content": "Briefly, by a petition dated May 9, 2022, Daniel Motaung (1 st respondent) sued Samasource Kenya Epz Limited T/a Sama (the 2 nd respondent) and",
+      "score": 0.5003668,
+      "raw_content": null
+    },
+    {
+      "url": "https://qz.com/open-ai-underpaid-200-kenyans-to-perfect-chatgpt-1850005025",
+      "title": "OpenAI underpaid 200 Kenyans to perfect ChatGPT—then sacked ...",
+      "content": "OpenAI didn't learn from Meta $META, which was sued in Nairobi last May by South African whistleblower Daniel Motaung for union busting and",
+      "score": 0.4075462,
+      "raw_content": null
+    },
+    {
+      "url": "https://time.com/6253180/meta-kenya-lawsuit-motaung",
+      "title": "Meta Fails Attempt to Dodge a Worker Exploitation Lawsuit in Kenya",
+      "content": "Motaung alleges he was unlawfully dismissed after leading an effort to unionize his colleagues for better pay and working conditions—in events",
+      "score": 0.40218133,
+      "raw_content": null
+    },
+    {
+      "url": "https://techcrunch.com/2022/03/30/meta-and-sama-face-legal-action-in-kenya-for-alleged-poor-work-conditions",
+      "title": "Ex-Facebook moderator sues Meta - TechCrunch",
+      "content": "Motaung was allegedly laid off for organizing the strike and trying to unionize Sama employees. The law firm has given Meta and Sama 21 days (",
+      "score": 0.3996482,
+      "raw_content": null
+    }
+  ],
+  "response_time": 0.97,
+  "request_id": "ca250210-3845-49c1-8699-d0a73b1c6f78"
+}

@@ -1,0 +1,66 @@
+{
+  "query": "AI call center emotion recognition real-time scoring worker surveillance 2025",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://www.metaintro.com/blog/emotion-ai-white-collar-workplace-surveillance",
+      "title": "Your Boss's New AI Knows When You're Anxious... - Metaintro",
+      "content": "Emotion AI tools that scored call-center moods now read white-collar workers in Slack, Zoom, and office chairs. What every job seeker should",
+      "score": 0.5249554,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.researchgate.net/publication/391391676_Speech_Emotion_AI_for_Mental_Health_Monitoring_in_Call_Centers",
+      "title": "(PDF) Speech Emotion AI for Mental Health Monitoring in Call Centers",
+      "content": "Speech Emotion Recognition (SER) powered by Artificial Intelligence enables real-time analysis of vocal cues to detect emotional states such as",
+      "score": 0.4905535,
+      "raw_content": null
+    },
+    {
+      "url": "https://legalblogs.wolterskluwer.com/global-workplace-law-and-policy/the-prohibition-of-ai-emotion-recognition-technologies-in-the-workplace-under-the-ai-act",
+      "title": "The Prohibition of AI Emotion Recognition Technologies in the Workplace under the AI Act | Global Workplace Law & Policy",
+      "content": "Two days later, on February 4, 2025, the European Commission approved the draft non-binding guidelines on the practical implementation of the prohibited AI practices laid down in Article 5, Chapter II, of the AI Act. Of particular relevance to the world of work is the inclusion of AI emotion recognition systems in the workplace amongst AI practices and systems that pose unacceptable risks, and are therefore prohibited under Article 5(1)(f), with two limited exceptions. A case-by-case assessment in the application of Article 5(1)(f) therefore remains key to ensuring that the prohibition of AI emotion recognition technologies in the workplace is upheld and that exceptions are only justified in limited cases, where the positive outcomes (e.g. protecting workers’ lives and health) outweigh the negative implications for workers’ fundamental rights, including the respect for their (mental and physical) health and safety.",
+      "score": 0.46249792,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.forasoft.com/blog/article/emotion-recognition-video-conferencing",
+      "title": "FAQ: Emotion Recognition in Video Conferencing in 2026",
+      "content": "# FAQ: Emotion Recognition in Video Conferencing in 2026. Emotion recognition in video conferencing is a statistical inference system that reads facial expressions, voice tone, and speech content to estimate a speaker’s engagement, stress, or sentiment. In April 2026 it is a **legally dangerous feature in most of Europe** (the EU AI Act bans it in workplaces and schools since February 2025) and a **compliance landmine under GDPR, BIPA, and the Washington MHMDA**. It can work — in mental health apps, sales coaching, UX research, and telemedicine — but only with explicit consent, honest accuracy disclosure, and architectural discipline. This FAQ is the version of the article you should read before you build. Emotion recognition in video conferencing is a system that analyzes the signals coming out of a video call — the video frames, the audio stream, the transcript — and returns inferred emotional state labels or scores. Critically, the EU AI Act defines an “emotion recognition system” as any AI that *infers* emotion from biometric data.",
+      "score": 0.4549328,
+      "raw_content": null
+    },
+    {
+      "url": "https://laborcenter.berkeley.edu/wp-content/uploads/2025/05/Electronic-Monitoring-and-Automated-Decision-Systems-FAQ.pdf",
+      "title": "[PDF] Electronic Monitoring and Automated Decision Systems",
+      "content": "Research on these technologies and their impacts on workers is still a young field, but examples of harms already documented include: ● Bias and discrimination—such as hiring software that has been trained on biased datasets ● Work intensification—such as intense real-time monitoring and coaching of call center workers ● Health and safety harms—such as productivity management systems driving warehouse workers to speed up to the point of injury10 ● Deskilling—such as algorithms rather than nurses triaging patient care ● Suppression of the right to organize—such as software that identifies high-risk workplaces for union organizing activity based on predictive analytics11 ● Lower wages—such as algorithmic wage setting ● Contingent work—such as gig economy platforms that use algorithmic management12 ● Unfair treatment—such as disciplining workers based on incomplete or erroneous video footage ● Loss of privacy—such as surveillance in non-work spaces ● Loss of autonomy—such as task direction software limiting worker discretion over how to organize their day UC Berkeley Labor Center • Electronic Monitoring and Automated Decision Systems: FAQ • page 5 A key challenge in identifying harms is that many digital systems operate invisibly to workers, who may not know when they are being monitored, what data is being collected, how it is being used in automated decisions systems, and how their employers’ evaluations and decisions are being affected.",
+      "score": 0.3153252,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.gminsights.com/industry-analysis/emotion-ai-market",
+      "title": "Emotion AI Market Size, 2025-2034 Trends Report",
+      "content": "# Emotion AI Market Size & Share 2025 to 2034. Market Size by Deployment Model, by Technology, by Application, by Component, by Data, by End Use industry. ## Emotion AI Market Size. The global emotion AI market was valued at USD 2.9 billion in 2024 and is estimated to register a CAGR of 21.7% between 2025 and 2034. As the number of people affected by anxiety depression and stress-related conditions increases the emotion AI remedies market expands because medical professionals require more advanced diagnostic and treatment technologies. ## Emotion AI Market Key Takeaways. ### Market Size & Growth. * 2034 Forecast Market Size: USD 19.4 billion. ## Emotion AI Market Analysis. Emotion AI Market Size, By Deployment Model, 2022 – 2034, (USD Billion). The cloud segment held a market share of over 50% in 2024 and is expected to cross USD 10 billion by 2034.",
+      "score": 0.30231947,
+      "raw_content": null
+    },
+    {
+      "url": "https://dl.acm.org/doi/full/10.1145/3544548.3580950",
+      "title": "Emotion AI at Work: Implications for Workplace Surveillance ...",
+      "content": "Participants viewed emotion AI as a deep privacy violation over the privacy of workers' sensitive emotional information.",
+      "score": 0.26954156,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.autoriteitpersoonsgegevens.nl/en/system/files?file=2024-10%2FCall+for+input_emotion+recognition_DCA-2024-02.pdf",
+      "title": "[PDF] AI systems for emotion recognition in the areas of workplace or ...",
+      "content": "On 27 September 2024, the AP published the first call for input on the first two prohibitions of the AI Act. In this second call for input, we address the sixth prohibition: AI systems for emotion recognition in the areas of workplace or education institutions (prohibition F). The AI Act prohibits AI systems used to infer emotions from a natural person in the areas of workplace or education institutions based on biometric data (hereinafter: emotion recognition systems). The Regulation defines this prohibition as follows: Article 5, paragraph 1, subparagraph f (‘prohibition F’): “The placing on the market, the putting into service for this specific purpose, or the use of AI systems to infer emotions of a natural person in the areas of workplace and education institutions, except where the use of the AI system is intended to be put in place or into the market for medical or safety reasons;” 17.",
+      "score": 0.24720559,
+      "raw_content": null
+    }
+  ],
+  "response_time": 1.17,
+  "request_id": "9fd5e5c0-697d-4d16-acb0-353be8ae17db"
+}

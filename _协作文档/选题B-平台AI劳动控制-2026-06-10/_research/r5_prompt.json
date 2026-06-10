@@ -1,0 +1,66 @@
+{
+  "query": "prompt crowdsourcing Midjourney Stable Diffusion RLHF workers 2025 Invisible Labor",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://www.neuralframes.com/post/comparing-midjourney-and-stable-diffusion-the-power-of-open-source-in-text-to-image-generation",
+      "title": "Consistent Styles: Midjourney vs Stable Diffusion (2025)",
+      "content": "Consistent Styles: Midjourney vs Stable Diffusion (2025). So you want to create visual art from text prompts. Both services have their own unique art styles and feature sets to work with. As an open source model, Stable diffusion has made it possible for any company to serve up fine tuned models via API. The neural frames image and animation generator is a prime example of this. At the beginning of 2024, Midjourney announced a new **consistent style** feature for V6 that makes it easier to maintain a single character through multiple generations. For example, in neural frames you can train custom Stable Diffusion image models to achieve consistent styles and objects. Here are some exciting and unique customization options that Midjourney offers, that make it competitive with Dalle and Stable Diffusion the others. 3. Use the */imagine* command to type in a text prompt and describe what you want to see in your image.",
+      "score": 0.34389287,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Zu3OzWxEABY",
+      "title": "MLA 025 AI Image Generation: Midjourney vs Stable Diffusion, GPT-4o, Imagen & Firefly",
+      "content": "MLA 025 AI Image Generation: Midjourney vs Stable Diffusion, GPT-4o, Imagen & Firefly\nTyler Renelle\n1670 subscribers\n8 likes\n255 views\n10 Jul 2025\nThe AI image market has split: Midjourney creates the highest quality artistic images but fails at text and precision. For business use, OpenAI's GPT-4o offers the best conversational control, while Adobe Firefly provides the strongest commercial safety from its exclusively licensed training data.\n Links \n      \n  •  Notes and resources at ocdevel.com/mlg/mla-25 (https://ocdevel.com/mlg/mla-25?utm_source=podcast&utm_medium=mlg&utm_campaign=mla25) \n      \n  •   Try a walking desk (https://ocdevel.com/walk?utm_source=podcast&utm_medium=mlg&utm_campaign=mla25)  - stay healthy & sharp while you learn & code\n      \n  •   Generate a podcast (https://ocdevel.com/blog/20260120-generate-listening-material?utm_source=podcast&utm_medium=mlg&utm_campaign=mla25)  - use my voice to listen to any AI generated content you want\n       \n\nThe 2025 generative AI image market is defined by a split between two types of tools. \"Artists\" like Midjourney excel at creating beautiful, high-quality images but lack precise control. \"Collaborators\" like OpenAI's GPT-4o and Google's Imagen 4 are integrated into language models, excelling at following complex instructions and accurately rendering text. Standing apart are the open-source \"Sovereign Toolkit\" Stable Diffusion, which offers users total control, and Adobe Firefly, a \"Professional's Walled Garden\" focused on commercial safety.\n The Five Main Platforms \n\nThe market is dominated by five platforms with distinct strengths and weaknesses.\n Tool Parent Company Core Strength Best For Midjourney v7 Midjourney, Inc. Artistic Aesthetics & Photorealism Fine Art, Concept Design, Stylized Visuals GPT-4o OpenAI Conversational Control & Instruction Following Marketing Materials, UI/UX Mockups, Logos Google Imagen 4 Google Ecosystem Integration & Speed Business Presentations, Educational Content Stable Diffusion 3 Stability AI Ultimate Customization & Control Developers, Power Users, Bespoke Workflows Adobe Firefly Adobe Commercial Safety & Workflow Integration Professional Designers, Agencies, Enterprise Use Platform Analysis \n      \n  •  Midjourney v7: Delivers the best aesthetic and photorealistic quality via a new web UI. Its \"Draft Mode\" allows for rapid, low-cost ideation. However, it cannot reliably render text, struggles to follow precise instructions (like counting objects), makes all images public on cheaper plans, and strictly prohibits API access or automation.\n      \n  •  GPT-4o: Its strength is conversational refinement within ChatGPT, allowing users to edit images through dialogue (e.g., \"change the shirt to red\"). It has excellent instruction-following and text-rendering capabilities. Weaknesses include being slower than competitors and generating only one image at a time.\n      \n  •  Google Imagen 4: A practical tool integrated directly into Google Workspace and Gemini. It produces high-quality, high-resolution (2K) photorealistic images quickly and renders text well. Its primary advantage is letting users generate images without leaving their documents or presentations.\n      \n  •  Stable Diffusion 3 (SD3): An open-source model that provides users with total control and privacy. The new SD3 architecture significantly improves prompt understanding and text generation. It can run on consumer hardware, and its quality is free after the initial hardware cost. Its power comes from a vast ecosystem of community tools (see below), but it has a steep learning curve.\n      \n  •  Adobe Firefly: Embedded within Adobe Creative Cloud (e.g., Photoshop's Generative Fill). Its key differentiator is commercial safety; it is trained only on licensed Adobe Stock and public domain content to indemnify users from copyright claims. It excels at editing existing images rather than generating from scratch.\n       Techniques & Tools \n      \n  •  In-painting/Out-painting: Core editing functions. In-painting modifies a specific area within an image. Out-painting expands an image beyond its original borders.\n      \n  •  Stable Diffusion Power Tools: \n           \n       •  LoRAs (Low-Rank Adaptations): Small files that apply a specific style, character, or concept to the main model.\n           \n       •  ControlNet: A framework that uses a reference image (e.g., a sketch or a stick-figure pose) as a \"blueprint\" to enforce a specific composition or pose.\n            \n      \n  •  Stable Diffusion Interfaces: Users choose a UI to run the model. Automatic1111 is a beginner-friendly, tab-based dashboard. ComfyUI is a more complex but powerful node-based interface for building custom, automated workflows.\n       Feature Comparison & Exclusion Rules \n\nThe choice of tool often depends on a single required feature.\n Model Text-in-Image Accuracy Photorealism Quality Complex Prompt Adherence Midjourney v7 Poor. A major weakness. Best-in-Class Fair GPT-4o Excellent. A key strength. Very Good Best-in-Class Google Imagen 4 Excellent Excellent Very Good Stable Diffusion 3 Good to Excellent Good to Excellent Good to ...\n1 comments\n",
+      "score": 0.3358086,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1hzdd1w/thinking_about_switching_from_midjourney_to",
+      "title": "Thinking about switching from Midjourney to Stable Diffusion, but I ...",
+      "content": "So Midjourney's censorship is getting exceedingly more restrictive and I'm looking for a potential switch over to Stable Diffusion.",
+      "score": 0.17125545,
+      "raw_content": null
+    },
+    {
+      "url": "https://restofworld.org/2025/the-ai-con-book-invisible-labor",
+      "title": "The AI Con book excerpt: The hidden workers who keep things running - Rest of World",
+      "content": "GlobalLaborThe hidden labor that makes AI work. # The hidden labor that makes AI work. Most AI tools require a huge amount of hidden labor to make them work at all. This industry has been called by many names: “crowdwork,” “data labor,” or “ghost work” (as the labor often goes unattended and unseen by consumers in the West). It’s not an exaggeration to say that we wouldn’t have the current wave of “AI” if it weren’t for the availability of on-demand laborers. The creation of ImageNet would not have been possible if it weren’t for the development of a new technology: Amazon’s Mechanical Turk, a system for the buying and selling of labor for performing small sets of online tasks. It is the work of those thousands of workers that made ImageNet valuable**.** ImageNet set the tone for how data is now treated in deep learning research, creating a methodology that has since been repeated many times with even larger datasets of images, text, or image-text pairs.",
+      "score": 0.14124614,
+      "raw_content": null
+    },
+    {
+      "url": "https://theaulafellowship.org/2026/03/01/the-invisible-labor-force-powering-ai",
+      "title": "The Invisible Labor Force Powering AI - The Aula Fellowship",
+      "content": "Millions of gig workers in the Global South provide the “intelligence” for AI models. This approach is under threat. featuring Aula Fellow",
+      "score": 0.11078845,
+      "raw_content": null
+    },
+    {
+      "url": "https://inthewatershed.substack.com/p/the-workers-behind-the-curtain-ais",
+      "title": "The Workers Behind the Curtain: AI’s Hidden Labor",
+      "content": "# In The Watershed. # The Workers Behind the Curtain: AI’s Hidden Labor. Thanks for reading In The Watershed! Subscribe for free to receive new posts and support my work. These workers are tagging images, transcribing audio, ranking AI-generated responses, and reviewing content - often deeply disturbing materials - that the algorithms flag but cannot independently evaluate. The gap between the AI pitch and the underlying labor reality shows up not just in training data but in deployment. What we are watching is not the total replacement of human labor but its reorganization -rendered less visible, less protected, more easily attributed to the algorithm, and almost always cheaper, because the workers are farther from the value they create and farther from any regulatory framework that might constrain how they are treated. AI is generating an analogous set of hidden costs, and they are currently as unmeasured and under-governed as industrial emissions were a generation ago.",
+      "score": 0.078536466,
+      "raw_content": null
+    },
+    {
+      "url": "https://medium.com/ai-with-society/ai-and-the-invisible-labor-force-who-trains-the-machines-that-shape-our-lives-f3a86ed0d410",
+      "title": "AI and the Invisible Labor Force: Who Trains the Machines That ...",
+      "content": "OpenAI's partnership with contractors in Kenya reportedly paid workers between $1.32 and $2 per hour to filter toxic content. Content moderation",
+      "score": 0.056386963,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QtFrk16f-IE",
+      "title": "Behind the AI Curtain: The Invisible Workers Powering AI ... - YouTube",
+      "content": "This seminar is dedicated to unveiling the hidden layers in the development of AI, shedding light on the human labour and ethical",
+      "score": 0.052235804,
+      "raw_content": null
+    }
+  ],
+  "response_time": 0.78,
+  "request_id": "e7bd3fae-5d71-4dec-b381-e4a186be0de0"
+}
