@@ -1,0 +1,23 @@
+{
+  "project": "AI数据中心邻避效应",
+  "topic": "AI 数据中心开始有邻避效应：xAI/SpaceX 数据中心噪音诉讼、AI 数据中心扩张引发社区、电力、水资源和土地冲突",
+  "created_at": "2026-06-12T16:17:40.514Z",
+  "updated_at": "2026-06-12T16:53:58.645Z",
+  "workflow": "standard",
+  "archive_profile": "standard",
+  "stage": "images_done",
+  "rounds_completed": 0,
+  "required_review_rounds": 1,
+  "topic_confirmed": true,
+  "confirmed_topic_choice": "AI 不是云上的，它正在吵醒真实社区",
+  "draft_reviewed": true,
+  "images_done": true,
+  "lessons_updated": false,
+  "next": "mark-reviewed",
+  "topic_confirmed_note": "用户确认继续选题三，采用美国案例作为镜子，公众号长文方向",
+  "topic_confirmed_at": "2026-06-12T16:20:47.700Z",
+  "draft_review_note": "用户已确认 09-draft.md，可以进入审校和最终稿",
+  "draft_reviewed_at": "2026-06-12T16:37:01.892Z",
+  "images_done_note": "已用 gpt-image-2 生成 cover/physical-chain/five-bills/governance 四张配图并插入 11-final.md",
+  "images_done_at": "2026-06-12T16:53:58.644Z"
+}
